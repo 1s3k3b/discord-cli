@@ -1,0 +1,33 @@
+{
+    "name": "discord-cli",
+    "author": "1s3k3b",
+    "version": "1.0.0",
+    "description": "A CLI which lets you interact with the Discord API via a bot token",
+    "main": "./src/index.js",
+    "homepage": "https://github.com/1s3k3b/discord-cli",
+    "files": [
+        "src"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/1s3k3b/discord-cli.git"
+    },
+    "keywords": [
+        "cli",
+        "discord",
+        "api"
+    ],
+    "bugs": {
+        "url": "https://github.com/1s3k3b/discord-cli/issues"
+    },
+    "dependencies": {
+        "discord.js": "^12.1.1",
+        "chalk": "^4.0.0"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0"
+    },
+    "bin": {
+        "dcli": "./src/index.js"
+    }
+}
